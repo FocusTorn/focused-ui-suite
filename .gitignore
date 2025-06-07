@@ -1,7 +1,10 @@
-# Dependencies
+# # Dependencies
+
 node_modules
 .pnp
 .pnp.js
+
+
 
 # Local env files
 .env
@@ -19,11 +22,9 @@ coverage
 # Vercel
 .vercel
 
-# Build Outputs
-.next/
-out/
-build
+# # Build Outputs
 dist
+*.tsbuildinfo
 
 
 # Debug
@@ -36,3 +37,5 @@ npm-debug.log*
 **/*.notesHub* 
 **/*removed*
 *.bak*
+
+packages/assets
